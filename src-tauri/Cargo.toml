@@ -1,6 +1,6 @@
 [package]
 name = "wuma-tracker"
-version = "1.5.3"
+version = "1.7.0"
 description = "명조 맵스 트래커"
 authors = ["wumadevs"]
 edition = "2024"
@@ -25,6 +25,7 @@ tauri-plugin-shell = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tokio = "1.45.1"
+tokio-util = "0.7"
 axum = { version = "0.8.8", features = ["ws"] }
 tracing = "0.1.40"
 futures = "0.3.31"
